@@ -4,8 +4,8 @@
   "description": "Koans for learning CoffeeScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register -R spec completed-koans/*.coffee",
-    "watch": "mocha -w --compilers coffee:coffee-script/register -R spec completed-koans/*.coffee"
+    "test": "mocha -b --compilers coffee:coffee-script/register -R spec completed-koans/*.coffee",
+    "watch": "mocha -b -w --compilers coffee:coffee-script/register -R dot completed-koans/*.coffee"
   },
   "repository": {
     "type": "git",
